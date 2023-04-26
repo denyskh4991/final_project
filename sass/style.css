@@ -116,6 +116,12 @@
   line-height: 19.5px;
 }
 
+.scroll {
+  position: absolute;
+  padding-left: 939px;
+  padding-top: 928px;
+}
+
 .second_part {
   display: flex;
   flex-direction: row;
@@ -175,9 +181,11 @@
 }
 
 .border {
-  width: 4px;
   height: 303px;
-  color: #fff;
+  border-left: solid #fff;
+  margin: 0;
+  width: 4px;
+  margin-top: 60px;
 }
 
 .services {
@@ -187,6 +195,17 @@
   font-size: 30px;
   line-height: 36.57px;
   margin: 0;
+}
+
+.consolidation {
+  color: #fff;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  width: 861px;
+  margin: 0;
+  padding-top: 30px;
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=style.css.map */
