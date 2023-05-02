@@ -1,10 +1,7 @@
 .header {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
-}
-
-.upper {
   display: flex;
-  flex-direction: row;
+  position: absolute;
 }
 
 .logo {
@@ -31,7 +28,7 @@
   text-align: center;
 }
 
-.nav__list {
+.lang-list {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -41,7 +38,7 @@
   padding-top: 52.5px;
 }
 
-.nav__link {
+.lang-list__link {
   color: #fff;
   font-weight: 700;
   font-size: 12px;
@@ -50,7 +47,7 @@
   line-height: 15px;
 }
 
-.nav__link:before {
+.lang-list__link:before {
   position: absolute;
   left: 0;
   top: calc(100% + 5px);
@@ -60,15 +57,15 @@
   opacity: 0;
 }
 
-.nav__link:hover, .nav__link:focus {
+.lang-list__link:hover, .lang-list__link:focus {
   color: #6DE1E3;
 }
 
-.nav__link:active {
+.lang-list__link:active {
   opacity: 0.7;
 }
 
-.btn {
+.lang-list__link.lang-list__link_active {
   background-color: #F0145A;
   border-color: #F0145A;
   font-size: 12px;
@@ -206,6 +203,82 @@
   margin: 0;
   padding-top: 30px;
   box-sizing: border-box;
+}
+
+.offer {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.services_offer_name {
+  color: #F0145A;
+  padding-left: 185px;
+  padding-top: 60px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17.07px;
+  margin: 0;
+}
+
+.services_offer_title {
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46.32px;
+  padding-left: 185px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.services_offer_image {
+  padding-left: 185px;
+  padding-top: 60px;
+}
+
+.services_offer_proposition {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26.82px;
+  color: #24A3FF;
+  padding-left: 185px;
+  padding-top: 30px;
+  margin: 0;
+}
+
+.services_offer_explanation {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  max-width: 493.33px;
+  padding-left: 185px;
+  padding-top: 15px;
+  margin: 0;
+}
+
+.distance {
+  padding-top: 87px;
+}
+
+.team {
+  display: inline-block;
+}
+
+.team_image {
+  padding-left: 160px;
+  padding-top: 60px;
+}
+
+.team_title {
+  color: #24A3FF;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17.07px;
 }
 
 
