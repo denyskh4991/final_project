@@ -133,7 +133,6 @@
 
 .scroll {
   position: absolute;
-  padding-left: 939px;
   padding-top: 928px;
 }
 
@@ -197,7 +196,7 @@
 
 .border {
   height: 303px;
-  border-left: solid #fff;
+  border-left: solid red;
   margin: 0;
   width: 4px;
   margin-top: 60px;
@@ -205,7 +204,7 @@
 
 .services {
   padding-top: 115px;
-  color: #fff;
+  color: red;
   font-weight: 700;
   font-size: 30px;
   line-height: 36.57px;
@@ -213,7 +212,7 @@
 }
 
 .consolidation {
-  color: #fff;
+  color: red;
   font-weight: 400;
   font-size: 19px;
   line-height: 30px;
@@ -221,12 +220,6 @@
   margin: 0;
   padding-top: 30px;
   box-sizing: border-box;
-}
-
-.offer {
-  display: flex;
-  justify-content: space-between;
-  gap: 60px;
 }
 
 .services_offer_name {
@@ -253,12 +246,22 @@
   padding-top: 10px;
 }
 
-.services_offer_image {
+.offer__section1 {
+  display: flex;
+  gap: 60px;
+}
+
+.offer__section2 {
+  display: flex;
+  gap: 60px;
+}
+
+.offer__image {
   padding-left: 185px;
   padding-top: 60px;
 }
 
-.services_offer_proposition {
+.offer__proposition {
   font-weight: 700;
   font-size: 22px;
   line-height: 26.82px;
@@ -268,11 +271,11 @@
   margin: 0;
 }
 
-.services_offer_explanation {
+.offer__explanation {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #fff;
+  color: #24A3FF;
   max-width: 493.33px;
   padding-left: 185px;
   padding-top: 15px;
@@ -280,23 +283,60 @@
 }
 
 .distance {
-  padding-top: 87px;
-}
-
-.team {
-  display: inline-block;
-}
-
-.team_image {
-  padding-left: 160px;
   padding-top: 60px;
 }
 
-.team_title {
+.team {
+  display: flex;
+  padding-top: 60px;
+}
+
+.team__image {
+  padding-left: 160px;
+}
+
+.team__description {
+  list-style: none;
+  background: #F5F5FA;
+  width: 1600px;
+  height: 298px;
+  margin: 0;
+}
+
+.team__title {
+  padding-top: 30px;
   color: #24A3FF;
   font-weight: 700;
   font-size: 14px;
   line-height: 17.07px;
+}
+
+.team__slogan {
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46.32px;
+  max-width: 1140px;
+}
+
+.team__leader {
+  padding-top: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #B3B3BA;
+}
+
+.team__leader_position {
+  padding-top: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #B3B3BA;
 }
 
 /*# sourceMappingURL=style.css.map */
