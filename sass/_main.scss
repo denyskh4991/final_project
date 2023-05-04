@@ -3,7 +3,7 @@
   padding-left: 233.54px;
 }
 
-.symbol_text {
+.symbol__text {
   color: #fff;
   width: 800px;
   font-weight: 700;
@@ -16,24 +16,21 @@
   text-align: center;
 }
 
-.scroll {
+.symbol__scroll {
   position: absolute;
   padding-top: 928px;
 
 }
 
-.second_part {
+.intermedia {
   display: flex;
   flex-direction: row;
   gap: 60px;
 
 }
 
-.intermedia {
+.intermedia__consistent {
   padding-top: 74.5px;
-}
-
-.consistent {
   list-style: none;
   color: #fff;
   margin: 0;
@@ -43,7 +40,7 @@
   gap: 30px;
 }
 
-.consistent__link {
+.intermedia__link {
   background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -56,16 +53,16 @@
   box-sizing: border-box;
 }
 
-.consistent__link_first {
+.intermedia__link_first {
   padding-left: 424px;
 }
 
-.consistent__link_second {
+.intermedia__link_second {
   padding-left: 290px;
 
 }
 
-.consistent__link_hover {
+.intermedia__link_hover {
   color: #B3B3BA;
   font-weight: 700;
   font-size: 38px;
@@ -74,11 +71,11 @@
   line-height: 46.32px;
 }
 
-.consistent__link_hover_first {
+.intermedia__link_hover_first {
   padding-left: 424px;
 }
 
-.consistent__link_hover_second {
+.intermedia__link_hover_second {
   padding-left: 310px;
 }
 
@@ -91,7 +88,15 @@
 
 }
 
-.services {
+.intermedia__services {
+  display: none;
+}
+
+.intermedia__services.intermedia__services_active {
+  display: block;
+}
+
+.intermedia__title {
   padding-top: 115px;
   color: red;
   font-weight: 700;
@@ -100,7 +105,7 @@
   margin: 0;
 }
 
-.consolidation {
+.intermedia__consolidation {
   color: red;
   font-weight: 400;
   font-size: 19px;
@@ -111,7 +116,7 @@
   box-sizing: border-box;
 }
 
-.services_offer_name {
+.offer__name {
   color: #F0145A;
   padding-left: 185px;
   padding-top: 60px;
@@ -121,7 +126,7 @@
   margin: 0;
 }
 
-.services_offer_title {
+.offer__title {
   background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -135,20 +140,20 @@
   padding-top: 10px;
 }
 
-.offer__section1 {
+.offer__list {
   display: flex;
   gap: 60px;
+  flex-wrap: wrap;
 }
 
-.offer__section2 {
-  display: flex;
-  gap: 60px;
+.offer__item {
+  width: 100%;
+  max-width: 493px;
 }
 
 .offer__image {
   padding-left: 185px;
   padding-top: 60px;
-
 }
 
 .offer__proposition {
@@ -170,10 +175,6 @@
   padding-left: 185px;
   padding-top: 15px;
   margin: 0;
-}
-
-.distance {
-  padding-top: 60px;
 }
 
 .team {
@@ -201,7 +202,7 @@
   line-height: 17.07px;
 }
 
-.team__slogan {
+.text-gradient {
   background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -213,7 +214,7 @@
   max-width: 1140px;
 }
 
-.team__leader {
+.team__name {
   padding-top: 30px;
   font-weight: 700;
   font-size: 16px;
@@ -221,7 +222,7 @@
   color: #B3B3BA;
 }
 
-.team__leader_position {
+.team__position {
   padding-top: 6px;
   font-weight: 400;
   font-size: 14px;
@@ -229,7 +230,7 @@
   color: #B3B3BA;
 }
 
-.brands_title {
+.brands__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 17.07px;
@@ -239,7 +240,7 @@
   margin: 0;
 }
 
-.brands {
+.brands__cards {
   padding-left: 100px;
   padding-top: 30px;
   display: grid;
