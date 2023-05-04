@@ -339,4 +339,22 @@
   color: #B3B3BA;
 }
 
+.brands_title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #323264;
+  padding-top: 106px;
+  padding-left: 855.5px;
+  margin: 0;
+}
+
+.brands {
+  padding-left: 100px;
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 1720px;
+}
+
 /*# sourceMappingURL=style.css.map */
