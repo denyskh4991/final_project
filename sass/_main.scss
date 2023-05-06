@@ -1,6 +1,6 @@
 .symbol {
   margin: 0;
-  padding-left: 233.54px;
+  padding-left: 234px;
 }
 
 .symbol__text {
@@ -84,7 +84,6 @@
   margin: 0;
   width: 4px;
   margin-top: 60px;
-
 }
 
 .intermedia__services {
@@ -187,7 +186,7 @@
   font-size: 16px;
   line-height: 1.625;
   color: #24A3FF;
-  max-width: 493.33px;
+  max-width: 493px;
   padding-left: 185px;
   padding-top: 15px;
   margin: 0;
@@ -250,7 +249,7 @@
   line-height: 1.22;
   color: #323264;
   padding-top: 106px;
-  padding-left: 855.5px;
+  padding-left: 856px;
   margin: 0;
 }
 
@@ -263,7 +262,53 @@
 }
 
 .publications {
-  padding-top: 30px;
   margin-top: 60px;
   padding-left: 160px;
+  background: #F5F5FA;
+  width: 100%;
+}
+
+.publications__slogan {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.publications__cards {
+  display: flex;
+  gap: 30px;
+}
+
+.publications__group {
+  max-width: 513px;
+  background: #fff;
+}
+
+.publications__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.22;
+  color: #24A3FF;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+}
+
+.publications__date {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.22;
+  color: #B3B3BA;
+  padding-bottom: 34px;
+  padding-left: 30px;
+}
+
+.publications__topic {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57;
+  max-width: 453px;
+  padding-bottom: 72px;
+  padding-left: 30px;
 }
