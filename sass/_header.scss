@@ -30,7 +30,7 @@
   font-size: 12px;
   text-decoration: none;
   position: relative;
-  line-height: 15px;
+  line-height: 1.22;
 }
 
 .lang-list__link:before {
@@ -59,7 +59,7 @@
   max-width: 33px;
   color: #fff;
   text-decoration: none;
-  line-height: 14.63px;
+  line-height: 1.22px;
   border-radius: 8px;
   cursor: pointer;
   display: flex;
@@ -75,7 +75,7 @@
 .contacts__item {
   font-size: 16px;
   font-weight: 400;
-  line-height: 19.5px;
+  line-height: 1.22px;
   width: 170px;
   text-decoration: none;
   color: #fff;
@@ -85,7 +85,7 @@
 .contacts__item_number {
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   width: 90px;
 }
 
@@ -110,5 +110,5 @@
   font-size: 16px;
   text-decoration: none;
   position: relative;
-  line-height: 19.5px;
+  line-height: 1.22;
 }

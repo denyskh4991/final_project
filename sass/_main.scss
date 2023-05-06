@@ -8,7 +8,7 @@
   width: 800px;
   font-weight: 700;
   font-size: 38px;
-  line-height: 46.32px;
+  line-height: 1.22;
   padding-top: 477px;
   padding-left: 560px;
   position: absolute;
@@ -34,7 +34,6 @@
   list-style: none;
   color: #fff;
   margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -49,7 +48,7 @@
   font-weight: 700;
   font-size: 38px;
   text-decoration: none;
-  line-height: 46.32px;
+  line-height: 1.22;
   box-sizing: border-box;
 }
 
@@ -68,7 +67,7 @@
   font-size: 38px;
   text-decoration: none;
   position: relative;
-  line-height: 46.32px;
+  line-height: 1.22;
 }
 
 .intermedia__link_hover_first {
@@ -101,7 +100,7 @@
   color: red;
   font-weight: 700;
   font-size: 30px;
-  line-height: 36.57px;
+  line-height: 1.22;
   margin: 0;
 }
 
@@ -109,20 +108,37 @@
   color: red;
   font-weight: 400;
   font-size: 19px;
-  line-height: 30px;
+  line-height: 1.58;
   width: 861px;
   margin: 0;
   padding-top: 30px;
   box-sizing: border-box;
 }
 
+.offer__head {
+  padding-left: 185px;
+}
+
 .offer__name {
   color: #F0145A;
-  padding-left: 185px;
   padding-top: 60px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 17.07px;
+  line-height: 1.22;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.text-gradient {
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 1.22;
+  max-width: 1140px;
   margin: 0;
 }
 
@@ -134,7 +150,7 @@
   text-fill-color: transparent;
   font-weight: 700;
   font-size: 38px;
-  line-height: 46.32px;
+  line-height: 1.22;
   padding-left: 185px;
   margin: 0;
   padding-top: 10px;
@@ -159,7 +175,7 @@
 .offer__proposition {
   font-weight: 700;
   font-size: 22px;
-  line-height: 26.82px;
+  line-height: 1.22;
   color: #24A3FF;
   padding-left: 185px;
   padding-top: 30px;
@@ -169,7 +185,7 @@
 .offer__explanation {
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625;
   color: #24A3FF;
   max-width: 493.33px;
   padding-left: 185px;
@@ -177,8 +193,13 @@
   margin: 0;
 }
 
+.offer__item_distance {
+  padding-bottom: 60px;
+}
+
 .team {
   display: flex;
+  margin: 0;
   padding-top: 60px;
 }
 
@@ -186,54 +207,47 @@
   padding-left: 160px;
 }
 
-.team__description {
-  list-style: none;
+.team__topic {
+  padding-left: 30px;
+  width: 1200px;
   background: #F5F5FA;
-  width: 1600px;
-  height: 298px;
-  margin: 0;
 }
 
-.team__title {
+.breadcrumbs {
   padding-top: 30px;
   color: #24A3FF;
   font-weight: 700;
   font-size: 14px;
-  line-height: 17.07px;
+  line-height: 1.22;
+  margin: 0;
 }
 
-.text-gradient {
-  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-  font-weight: 700;
-  font-size: 38px;
-  line-height: 46.32px;
-  max-width: 1140px;
+.team__topic.team__topic_distance {
+  padding-bottom: 5px;
 }
 
 .team__name {
   padding-top: 30px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 19.5px;
+  line-height: 1.22;
   color: #B3B3BA;
+  margin: 0;
 }
 
 .team__position {
   padding-top: 6px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 22px;
+  line-height: 1.57;
   color: #B3B3BA;
+  margin: 0;
 }
 
 .brands__title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 17.07px;
+  line-height: 1.22;
   color: #323264;
   padding-top: 106px;
   padding-left: 855.5px;
