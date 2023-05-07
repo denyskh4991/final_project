@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="header">
+<header class="header center">
     <a href="#" class="logo">
         <img src="img/logo.svg" alt="logo">
     </a>
@@ -43,7 +43,10 @@
                 0800 211 927
             </a>
             <a href="#" target="_blank" class="contacts__item contacts__item_facebook">
-                <img src="img/facebook.svg" alt="facebook">
+                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 12.5733C24 5.90541 18.6274 0.5 12 0.5C5.37258 0.5 0 5.90541 0 12.5733C0 18.5995 4.38823 23.5943 10.125 24.5V16.0633H7.07813V12.5733H10.125V9.91343C10.125 6.88755 11.9165 5.21615 14.6576 5.21615C15.9705 5.21615 17.3438 5.45195 17.3438 5.45195V8.42313H15.8306C14.3399 8.42313 13.875 9.35379 13.875 10.3086V12.5733H17.2031L16.6711 16.0633H13.875V24.5C19.6118 23.5943 24 18.5995 24 12.5733Z"
+                          fill="white"/>
+                </svg>
             </a>
         </address>
     </section>
@@ -83,8 +86,8 @@
     </nav>
 </header>
 <main>
-    <section>
-        <div class="symbol">
+    <section class="background-gradient">
+        <div class="symbol center">
             <a href="#section2" class="symbol__scroll">
                 <img src="img/scroll.svg" alt="scroll">
             </a>
@@ -92,7 +95,7 @@
                 you legal solutions provider
             </h1>
         </div>
-        <section class="intermedia">
+        <section class="intermedia center">
             <ul class="intermedia__consistent">
                 <li>
                     <a href="#" class="intermedia__link intermedia__link_first">
@@ -168,7 +171,7 @@
                 </p>
             </section>
         </section>
-        <section class="offer">
+        <section class="offer center">
             <article class="offer__head">
                 <p class="offer__name">
                     services >
@@ -280,7 +283,7 @@
             </section>
         </section>
     </section>
-    <section class="team">
+    <section class="team center">
         <div class="team__image">
             <img src="img/team.svg" alt="team">
         </div>
@@ -300,7 +303,7 @@
             </p>
         </article>
     </section>
-    <section class="brands">
+    <section class="brands center">
         <p class="brands__title">
             THEY ALREADY TRUST US
         </p>
@@ -319,7 +322,7 @@
             <img src="img/ultimate.png" alt="ultimate">
         </article>
     </section>
-    <section class="publications">
+    <section class="publications center">
         <p class="breadcrumbs">
             PUBLICATIONS >
         </p>
@@ -328,9 +331,9 @@
         </h2>
         <section class="publications__cards">
             <section class="publications__group">
-                <article>
+                <picture>
                     <img src="img/scores.png" alt="scores">
-                </article>
+                </picture>
                 <h4 class="publications__title">
                     Equity associate
                 </h4>
@@ -346,9 +349,10 @@
                 </p>
             </section>
             <section class="publications__group">
-                <article>
-                    <img src="img/gdpr.png" alt="gdpr">
-                </article>
+                <picture>
+                    <img src="img/gdpr.png"
+                         alt="Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR">
+                </picture>
                 <h4 class="publications__title">
                     Penalty for the Good Corporation: what will happen<br> to Google and others for violating the GDPR
                 </h4>
@@ -362,9 +366,9 @@
                 </p>
             </section>
             <section class="publications__group">
-                <article>
+                <picture>
                     <img src="img/people.png" alt="people">
-                </article>
+                </picture>
                 <h4 class="publications__title">
                     Millennial Testament
                 </h4>
@@ -380,7 +384,34 @@
         </section>
     </section>
 </main>
-<footer>
+<footer class="footer center">
+    <article class="footer__row">
+        <a class="footer__location">
+            <span class="footer__street">
+                Kyiv, Mechnikova str, 14/1
+            </span>
+            <span class="footer__map">
+                On map
+            </span>
+        </a>
+        <p class="footer__copyright">
+            © 2021 HLEGAL Law company, LLC
+        </p>
+    </article>
+    <address class="contacts contacts_footer">
+        <a href="#" target="_blank" class="contacts__item contacts__item_facebook">
+            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 12.5733C24 5.90541 18.6274 0.5 12 0.5C5.37258 0.5 0 5.90541 0 12.5733C0 18.5995 4.38823 23.5943 10.125 24.5V16.0633H7.07813V12.5733H10.125V9.91343C10.125 6.88755 11.9165 5.21615 14.6576 5.21615C15.9705 5.21615 17.3438 5.45195 17.3438 5.45195V8.42313H15.8306C14.3399 8.42313 13.875 9.35379 13.875 10.3086V12.5733H17.2031L16.6711 16.0633H13.875V24.5C19.6118 23.5943 24 18.5995 24 12.5733Z"
+                      fill="#24A3FF"/>
+            </svg>
+        </a>
+        <a href="tel:0800211927" class="contacts__item contacts__item_number">
+            0800 211 927
+        </a>
+        <a href="#" class="contacts__email">
+            contact@forstudy.space
+        </a>
+    </address>
 </footer>
 </body>
 </html>
