@@ -14,6 +14,26 @@ body {
 .background-gradient {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   border-radius: 0 0 12px 12px;
+  position: relative;
+
+  &:before, &:after {
+    content: '';
+    display: block;
+    height: 10px;
+    border-radius: 0 0 12px 12px;
+    width: calc(100% - 40px);
+    background: #CACADB;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 100%;
+  }
+
+  &:after {
+    width: calc(100% - 80px);
+    background: #E7E7F2;
+    top: calc(100% + 10px);
+  }
 }
 
 .symbol {

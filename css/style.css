@@ -105,6 +105,26 @@ body {
 .background-gradient {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   border-radius: 0 0 12px 12px;
+  position: relative;
+}
+
+.background-gradient:before, .background-gradient:after {
+  content: "";
+  display: block;
+  height: 10px;
+  border-radius: 0 0 12px 12px;
+  width: calc(100% - 40px);
+  background: #CACADB;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 100%;
+}
+
+.background-gradient:after {
+  width: calc(100% - 80px);
+  background: #E7E7F2;
+  top: calc(100% + 10px);
 }
 
 .symbol {
@@ -153,6 +173,8 @@ body {
 
 .intermedia {
   display: flex;
+  padding-top: 75px;
+  align-items: center;
 }
 
 .intermedia__consistent {
@@ -162,17 +184,9 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-top: 75px;
   padding-left: 285px;
-}
-
-.intermedia__consistent:after {
-  content: "";
-  width: 4px;
-  height: 303px;
-  padding-left: 60px;
-  color: #fff;
-  position: absolute;
+  padding-right: 60px;
+  border-right: 4px solid rgba(255, 255, 255, 0.3);
 }
 
 .intermedia__link {
@@ -180,25 +194,26 @@ body {
   display: block;
   text-decoration: none;
   background: #B3B3BA;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
   white-space: nowrap;
+  text-align: right;
 }
 
 .intermedia__link_active {
-  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  background-image: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
 }
 
 .intermedia__link:hover {
-  background: #F0145A;
+  background-image: linear-gradient(90.13deg, #F0145A 0.84%, #F0145A 99.96%);
 }
 
 .intermedia__services {
   display: none;
-  padding-top: 133px;
   padding-left: 60px;
 }
 
@@ -211,6 +226,8 @@ body {
   font-weight: 700;
   font-size: 30px;
   line-height: 1.22;
+  margin: 0;
+  margin-bottom: 30px;
 }
 
 .intermedia__consolidation {
@@ -218,6 +235,7 @@ body {
   line-height: 1.58;
   color: #fff;
   max-width: 861px;
+  margin: 0;
 }
 
 .offer {
