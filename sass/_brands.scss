@@ -1,0 +1,17 @@
+.brands {
+  padding-top: 60px;
+
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.23;
+    color: #323264;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

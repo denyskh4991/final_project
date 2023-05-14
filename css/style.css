@@ -177,25 +177,23 @@ body {
 
 .intermedia__link {
   text-decoration: none;
-}
-
-.intermedia__link_first {
-  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  display: block;
+  text-decoration: none;
+  background: #B3B3BA;
+  padding-bottom: 30px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+  white-space: nowrap;
 }
 
-.intermedia__link_second {
-  color: #F0145A;
-  padding-top: 30px;
+.intermedia__link_active {
+  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
 }
 
-.intermedia__link_hover {
-  text-decoration: none;
-  color: #B3B3BA;
-  padding-top: 30px;
+.intermedia__link:hover {
+  background: #F0145A;
 }
 
 .intermedia__services {
@@ -294,6 +292,24 @@ body {
 
 .text-gradient_team {
   max-width: 1140px;
+}
+
+.brands {
+  padding-top: 60px;
+}
+
+.brands__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.23;
+  color: #323264;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.brands__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 
