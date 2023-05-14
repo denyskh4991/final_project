@@ -97,7 +97,7 @@ body {
 
 .background-gradient {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
-  border-radius: 0px 0px 12px 12px;
+  border-radius: 0 0 12px 12px;
 }
 
 .symbol {
@@ -120,6 +120,72 @@ body {
   line-height: 1.22;
   color: #fff;
   margin: 0;
+}
+
+.intermedia {
+  display: flex;
+}
+
+.intermedia__consistent {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 1.22;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 75px;
+  padding-left: 285px;
+}
+.intermedia__consistent:after {
+  content: "";
+  width: 4px;
+  height: 303px;
+  padding-left: 60px;
+  color: #fff;
+  position: absolute;
+}
+
+.intermedia__link {
+  text-decoration: none;
+}
+.intermedia__link_first {
+  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.intermedia__link_second {
+  color: #F0145A;
+  padding-top: 30px;
+}
+.intermedia__link_hover {
+  text-decoration: none;
+  color: #B3B3BA;
+  padding-top: 30px;
+}
+
+.intermedia__services {
+  display: none;
+  padding-top: 133px;
+  padding-left: 60px;
+}
+.intermedia__services_active {
+  display: block;
+}
+
+.intermedia__title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.22;
+}
+
+.intermedia__consolidation {
+  font-size: 19px;
+  line-height: 1.58;
+  color: #fff;
+  max-width: 861px;
 }
 
 /*# sourceMappingURL=style.css.map */
