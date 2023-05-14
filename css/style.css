@@ -143,6 +143,14 @@ body {
   margin: 0;
 }
 
+.breadcrumbs {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.23;
+  color: #24A3FF;
+  margin: 0;
+}
+
 .intermedia {
   display: flex;
 }
@@ -214,8 +222,9 @@ body {
   max-width: 861px;
 }
 
-.offer__head {
+.offer {
   padding-top: 75px;
+  padding-bottom: 60px;
 }
 
 .offer__name {
@@ -239,6 +248,8 @@ body {
   font-size: 22px;
   line-height: 1.22;
   color: #24A3FF;
+  margin: 0;
+  padding-top: 30px;
 }
 
 .offer__explanation {
@@ -246,6 +257,43 @@ body {
   line-height: 1.625;
   color: #fff;
   max-width: 494px;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.team {
+  padding-top: 60px;
+  display: flex;
+}
+
+.team__topic {
+  padding-left: 30px;
+  background: #F5F5FA;
+}
+
+.team__topic_distance {
+  padding-top: 30px;
+}
+
+.team__name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.22;
+  color: #B3B3BA;
+  margin: 0;
+  padding-top: 30px;
+}
+
+.team__position {
+  font-size: 14px;
+  line-height: 1.57;
+  color: #B3B3BA;
+  margin: 0;
+  padding-top: 6px;
+}
+
+.text-gradient_team {
+  max-width: 1140px;
 }
 
 
