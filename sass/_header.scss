@@ -5,6 +5,7 @@
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 17px;
+  z-index: 5;
 }
 
 .logo {
