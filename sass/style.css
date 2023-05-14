@@ -95,6 +95,16 @@ body {
   padding-right: calc(50vw - 800px);
 }
 
+.center_wider {
+  padding-left: calc(50vw - 860px);
+  padding-right: calc(50vw - 860px);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
 .background-gradient {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   border-radius: 0 0 12px 12px;
@@ -292,6 +302,7 @@ body {
 
 .brands {
   padding-top: 60px;
+  margin-bottom: 60px;
 }
 .brands__title {
   font-weight: 700;
@@ -304,6 +315,8 @@ body {
 .brands__cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,6 @@
 .brands {
   padding-top: 60px;
+  margin-bottom: 60px;
 
   &__title {
     font-weight: 700;
@@ -13,5 +14,7 @@
   &__cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-radius: 12px;
+    overflow: hidden
   }
 }
