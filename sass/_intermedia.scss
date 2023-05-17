@@ -65,7 +65,27 @@
   margin: 0;
 }
 
+@media screen and (max-width: 1650px) {
+  .center {
+    padding-left: calc(50vw - 660px);
+    padding-right: calc(50vw - 660px);
+  }
 
+  .intermedia__consistent {
+    padding-left: 180px;
+  }
+
+  .intermedia__consolidation {
+    max-width: 581px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .center {
+    padding-left: calc(50vw - 452px);
+    padding-right: calc(50vw - 452px);
+  }
+}
 
 
 

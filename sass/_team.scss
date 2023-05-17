@@ -8,6 +8,7 @@
 
     &_distance {
       padding-top: 30px;
+      padding-bottom: 5px;
     }
   }
 
@@ -31,4 +32,22 @@
 
 .text-gradient_team {
   max-width: 1140px;
+}
+
+@media screen and (max-width: 1650px) {
+  .center {
+    padding-left: calc(50vw - 660px);
+    padding-right: calc(50vw - 660px);
+  }
+
+  .text-gradient_team {
+    max-width: 860px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .center {
+    padding-left: calc(50vw - 452px);
+    padding-right: calc(50vw - 452px);
+  }
 }

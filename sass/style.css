@@ -83,6 +83,18 @@
   display: none;
 }
 
+@media screen and (max-width: 1650px) {
+  .center {
+    padding-left: calc(50vw - 660px);
+    padding-right: calc(50vw - 660px);
+  }
+}
+@media screen and (max-width: 1250px) {
+  .center {
+    padding-left: calc(50vw - 452px);
+    padding-right: calc(50vw - 452px);
+  }
+}
 .footer {
   background: #F5F5FA;
   padding-top: 30px;
@@ -121,6 +133,7 @@
   padding-top: 21px;
   display: flex;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 .contacts__item_facebook:before {
@@ -159,6 +172,18 @@
   margin-right: 10px;
 }
 
+@media screen and (max-width: 1650px) {
+  .center {
+    padding-left: calc(50vw - 660px);
+    padding-right: calc(50vw - 660px);
+  }
+}
+@media screen and (max-width: 1250px) {
+  .center {
+    padding-left: calc(50vw - 452px);
+    padding-right: calc(50vw - 452px);
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -253,6 +278,12 @@ img {
     padding-right: calc(50vw - 660px);
   }
 }
+@media screen and (max-width: 1250px) {
+  .center {
+    padding-left: calc(50vw - 452px);
+    padding-right: calc(50vw - 452px);
+  }
+}
 .intermedia {
   display: flex;
   padding-top: 75px;
@@ -317,6 +348,24 @@ img {
   margin: 0;
 }
 
+@media screen and (max-width: 1650px) {
+  .center {
+    padding-left: calc(50vw - 660px);
+    padding-right: calc(50vw - 660px);
+  }
+  .intermedia__consistent {
+    padding-left: 180px;
+  }
+  .intermedia__consolidation {
+    max-width: 581px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .center {
+    padding-left: calc(50vw - 452px);
+    padding-right: calc(50vw - 452px);
+  }
+}
 .offer {
   padding-top: 75px;
   padding-bottom: 60px;
@@ -342,6 +391,7 @@ img {
   color: #24A3FF;
   margin: 0;
   padding-top: 30px;
+  max-width: 493px;
 }
 .offer__explanation {
   font-size: 16px;
@@ -352,6 +402,24 @@ img {
   padding-top: 15px;
 }
 
+@media screen and (max-width: 1650px) {
+  .center {
+    padding-left: calc(50vw - 660px);
+    padding-right: calc(50vw - 660px);
+  }
+  .offer__proposition {
+    max-width: 400px;
+  }
+  .offer__explanation {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .center {
+    padding-left: calc(50vw - 452px);
+    padding-right: calc(50vw - 452px);
+  }
+}
 .team {
   padding-top: 60px;
   display: flex;
@@ -362,6 +430,7 @@ img {
 }
 .team__topic_distance {
   padding-top: 30px;
+  padding-bottom: 5px;
 }
 .team__name {
   font-weight: 700;
@@ -383,6 +452,21 @@ img {
   max-width: 1140px;
 }
 
+@media screen and (max-width: 1650px) {
+  .center {
+    padding-left: calc(50vw - 660px);
+    padding-right: calc(50vw - 660px);
+  }
+  .text-gradient_team {
+    max-width: 860px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .center {
+    padding-left: calc(50vw - 452px);
+    padding-right: calc(50vw - 452px);
+  }
+}
 .brands {
   padding-top: 60px;
   margin-bottom: 60px;
@@ -394,6 +478,7 @@ img {
   color: #323264;
   padding-bottom: 30px;
   text-align: center;
+  margin: 0;
 }
 .brands__cards {
   display: grid;
@@ -402,6 +487,18 @@ img {
   overflow: hidden;
 }
 
+@media screen and (max-width: 1650px) {
+  .brands__cards {
+    display: grid;
+    border-radius: 0;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .center {
+    padding-left: calc(50vw - 452px);
+    padding-right: calc(50vw - 452px);
+  }
+}
 .publications {
   padding-top: 30px;
   background: #F5F5FA;
@@ -430,20 +527,49 @@ img {
   margin: 0;
   padding-top: 30px;
   padding-left: 30px;
+  max-width: 453px;
 }
 .publications__date {
   font-weight: 700;
   font-size: 12px;
   line-height: 1.22;
   color: #B3B3BA;
+  padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: 4px solid #E6E6F0;
   padding-left: 30px;
+  margin: 0;
 }
 .publications__topic {
   padding-left: 30px;
   font-size: 12px;
   line-height: 1.57;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  max-width: 453px;
+}
+
+@media screen and (max-width: 1650px) {
+  .center {
+    padding-left: calc(50vw - 660px);
+    padding-right: calc(50vw - 660px);
+  }
+  .publications__group {
+    max-width: 420px;
+  }
+  .publications__title {
+    max-width: 360px;
+  }
+  .publications__topic {
+    max-width: 360px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .center {
+    padding-left: calc(50vw - 452px);
+    padding-right: calc(50vw - 452px);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

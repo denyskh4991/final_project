@@ -96,3 +96,10 @@ img {
     padding-right: calc(50vw - 660px);
   }
 }
+
+@media screen and (max-width: 1250px) {
+  .center {
+    padding-left: calc(50vw - 452px);
+    padding-right: calc(50vw - 452px);
+  }
+}
