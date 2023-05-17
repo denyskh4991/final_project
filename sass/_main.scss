@@ -95,11 +95,33 @@ img {
     padding-left: calc(50vw - 660px);
     padding-right: calc(50vw - 660px);
   }
+
+  .center_wider {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1340px) {
   .center {
     padding-left: calc(50vw - 452px);
     padding-right: calc(50vw - 452px);
+  }
+
+  .center_wider {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .center {
+    padding-left: calc(50vw - 324px);
+    padding-right: calc(50vw - 324px);
+  }
+
+  .symbol {
+    min-height: 1024px;
+    background-size: cover;
   }
 }

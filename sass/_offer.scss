@@ -39,12 +39,7 @@
 }
 
 @media screen and (max-width: 1650px) {
-  .center {
-    padding-left: calc(50vw - 660px);
-    padding-right: calc(50vw - 660px);
-  }
-
-  .offer__proposition {
+    .offer__proposition {
     max-width: 400px;
   }
 
@@ -54,8 +49,5 @@
 }
 
 @media screen and (max-width: 1250px) {
-  .center {
-    padding-left: calc(50vw - 452px);
-    padding-right: calc(50vw - 452px);
-  }
+
 }
