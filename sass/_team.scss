@@ -44,7 +44,6 @@
 }
 
 @media screen and (max-width: 1650px) {
-
   .text-gradient_team {
     max-width: 860px;
   }
@@ -54,8 +53,26 @@
   .team__image {
     min-width: 400px;
   }
+}
+
+@media screen and (max-width: 950px) {
+  .team {
+    display: block;
+
+    &__image {
+      min-width: 648px;
+
+      img {
+        border-radius: 12px 12px 0 0;
+      }
+    }
+
+    &__topic {
+      border-radius: 12px 0 12px 12px;
+    }
+  }
 
   .text-gradient_team {
-
+    max-width: 588px;
   }
 }

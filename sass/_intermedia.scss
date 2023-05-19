@@ -81,6 +81,37 @@
   }
 }
 
+@media screen and (max-width: 950px) {
+  .intermedia {
+    display: block;
+    padding-top: 60px;
+  }
+
+  .intermedia__consistent {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 60px;
+    border-right: none;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .intermedia__link {
+    padding: 0;
+  }
+
+  .intermedia__services {
+    padding: 0;
+  }
+
+  .intermedia__title {
+    padding-top: 60px;
+  }
+
+  .intermedia__consolidation {
+    max-width: 648px;
+  }
+}
+
 
 
 

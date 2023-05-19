@@ -21,6 +21,13 @@
     max-width: 453px;
   }
 
+  &__image {
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
   &__title {
     font-weight: 700;
     font-size: 16px;
@@ -71,5 +78,37 @@
 }
 
 @media screen and (max-width: 1340px) {
+  .publications__group {
+    max-width: 281px;
+  }
 
+  .publications__image {
+    min-width: 281px;
+  }
+
+  .publications__title {
+    max-width: 221px;
+  }
+
+  .publications__topic {
+    max-width: 221px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .publications__cards {
+
+  }
+
+  .publications__image {
+    min-width: 309px;
+  }
+
+  .publications__title {
+    max-width: 249px;
+  }
+
+  .publications__topic {
+    max-width: 249px;
+  }
 }
